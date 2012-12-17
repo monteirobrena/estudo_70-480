@@ -1,0 +1,83 @@
+Implement and Manipulate Document Structures and Objects (24%)
+
+1. Create the document structure.
+This objective may include but is not limited to: structure the UI by using semantic markup, including for search engines and screen readers (Section, Article, Nav, Header, Footer, and Aside); create a layout container in HTML
+
+O Doctype deve ser a primeira linha de código do documento antes da tag HTML. Esta tag não pertence ao código HTML e também não necessita de tag de fechamento.
+<!DOCTYPE html!>
+
+O código HTML é uma série de elementos em árvore onde alguns elementos são filhos de outros e assim por diante. O elemento principal dessa grande árvore é sempre a tag HTML.
+<html lang=”pt-br”></html>
+
+A Tag HEAD é onde fica toda a parte inteligente da página. No HEAD ficam os metadados. Metadados são informações sobre a página e o conteúdo ali publicado.
+<head></head>
+
+Metatag responsável por chavear qual tabela de caractéres a página está utilizando, não necessita de tag de fechamento. Unicode fornece um único número para cada caractere, não importa a plataforma, nem o programa, nem a língua.
+<meta charset=”utf-8”> ESTRUTURA ATUAL DA TAG.
+<meta http-equiv=”Content-Type” content=”text/html; charset=utf-8”> ESTRUTURA ANTIGA SUPORTADA PELO HTML5.
+
+Links para fontes externas que serão usadas no documento.
+<link rel=”stylesheet” type=”text/css” href=”estilo.css”>
+
+Modelos de conteúdo:
+Os elementos de linha marcam, na sua maioria das vezes, texto.
+Os elementos de blocos são como caixas, que dividem o conteúdo nas seções do layout.
+
+Os elementos de linha podem conter outros elementos de linha, dependendo da categoria que ele se encontra. Por exemplo: o elemento a não pode conter o elemento label.
+Os elementos de linha nunca podem conter elementos de bloco.
+Elementos de bloco sempre podem conter elementos de linha.
+Elementos de bloco podem conter elementos de bloco, dependendo da categoria que ele se encontra. Por exemplo, um parágrafo não pode conter um DIV. Mas o contrário é possível.
+
+Os modelos de conteúdo são divididos em categorias. Estas categorias dizem qual modelo de conteúdo o elemento trabalha e como pode ser seu comportamento.
+
+Categorias:
+Metadata content
+Este conteúdo vem antes da apresentação, formando uma relação com o documento e seu conteúdo com outros documentos que distribuem informação por outros meios.
+Flow content
+A maioria dos elementos utilizados no body e aplicações são categorizados como Flow Content.
+Sectioning content
+Estes elementos definem um grupo de cabeçalhos e rodapés.
+Heading content
+Os elementos da categoria Heading definem uma seção de cabeçalhos, que podem estar contidos em um elemento na categoria Sectioning.
+Phrasing content
+Fazem parte desta categoria elementos que marcam o texto do documento, bem como os elementos que marcam este texto dentro do elemento de parágrafo.
+Embedded content
+Elementos que importam outra fonte de informação para o documento.
+Interactive content
+Interactive Content são elementos que fazem parte da interação de usuário.
+
+section	- A tag section define uma nova seção genérica no documento. Por exemplo, a home de um website pode ser dividida em diversas seções: introdução ou destaque, novidades, informação de contato e chamadas para conteúdo interno.
+
+nav - O elemento nav representa uma seção da página que contém links para outras partes do website. Nem todos os grupos de links devem ser elementos nav, apenas aqueles grupos que contém links importantes. Isso pode ser aplicado naqueles blocos de links que geralmente são colocados no Rodapé e também para compor o menu principal do site.
+
+article - O elemento article representa uma parte da página que poderá ser distribuído e reutilizável em FEEDs por exemplo. Isto pode ser um post, artigo, um bloco de comentários de usuários ou apenas um bloco de texto comum.
+
+aside - O elemento aside representa um bloco de conteúdo que referência o conteúdo que envolta do elemento aside. O aside pode ser representado por conteúdos em sidebars em textos impressos, publicidade ou até mesmo para criar um grupo de elementos nav e outras informações separados do conteúdo principal do website.
+
+hgroup - Este elemento consiste em um grupo de títulos. Ele serve para agrupar elementos de título de H1 até H6 quando eles tem múltiplos níveis como título com subtítulos e etc.
+
+header - O elemento header representa um grupo de introdução ou elementos de navegação. O elemento header pode ser utilizado para agrupar índices de conteúdos, campos de busca ou até mesmo logos.
+
+footer - O elemento footer representa literalmente o rodapé da página. Seria o último elemento do último elemento antes de fechar a tag HTML. O elemento footer não precisa aparecer necessariamente no final de uma seção.
+
+time - Este elemento serve para marcar parte do texto que exibe um horário ou uma data precisa no calendário gregoriano.
+
+
+2. Write code that interacts with UI controls.
+This objective may include but is not limited to: programmatically add and modify HTML elements; implement media controls; implement HTML5 canvas and SVG graphics.
+
+
+3. Apply styling to HTML elements programmatically.
+This objective may include but is not limited to: change the location of an element; apply a transform; show and hide elements.
+
+
+4. Implement HTML5 APIs.
+This objective may include but is not limited to: implement storage APIs, AppCache API, and Geolocation API.
+
+
+5. Establish the scope of objects and variables.
+This objective may include but is not limited to: define the lifetime of variables; keep objects out of the global namespace; use the “this” keyword to reference an object that fired an event; scope variables locally and globally.
+
+
+6. Create and implement objects and methods.
+This objective may include but is not limited to: implement native objects; create custom objects and custom properties for native objects using prototypes and functions; inherit from an object; implement native methods and create custom methods.
