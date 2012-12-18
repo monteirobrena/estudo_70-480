@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulário</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<label for="telefone">Telefone</label>
+	<input id="telefone" type="tel" autofocus placeholder="+11 22 3344-5566" />
+	<br/>
+	<label for="busca">Busca</label>
+	<input id="busca" type="search" placeholder="Pesquisar" />
+	<br />
+	<label for="email">E-mail</label>
+	<input id="email" type="email" placeholder="seu@email.com" required />
+	<br />
+	<label for="url">URL</label>
+	<input id="url" type="url" placeholder="http://seusite.com" />
+	<br />
+	<label for="dataHora">Data e hora</label>
+	<input id="dataHora" type="datetime" />
+	<br />
+	<label for="dia">Dia</label>
+	<input id="dia" type="date" placeholder="1 a 31" maxlength="2" />
+	<br />
+	<label for="mes">Mês</label>
+	<input id="mes" type="month" placeholder="1 a 12" maxlength="2" />
+	<br />
+	<label for="semana">Semana</label>
+	<input id="semana" type="week" />
+	<br />
+	<label for="hora">Hora</label>
+	<input id="hora" type="time" maxlength="8" />
+	<br />
+	<label for="dataHoraLocal">Data e hora local</label>
+	<input id="dataHoraLocal" type="datetime-local" />
+	<br />
+	<label for="rangeNumber">Intervalo numérico</label>
+	<input id="rangeNumber" type="number" min="10" max="100" step="10" value="50" maxlength="3" />
+	<br />
+	<label for="rangeSlider">0 a 100</label>
+	<input id="rangeSlider" type="range" min="0" max="100" step="10" value="50" maxlength="3" />
+	<br />
+	<label name="cor">Cor</label>
+	<input id="cor" type="color" />
+	<br />
+	<label for="cep">CEP</label>
+	<input id="cep" pattern="\d{5}-?\d{3}" maxlength="9" />
+	<br />
+	<input type="submit" name="action" value="Enviar">
+</body>
+</html>
