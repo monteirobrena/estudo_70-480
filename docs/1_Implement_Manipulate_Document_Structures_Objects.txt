@@ -5,11 +5,11 @@ This objective may include but is not limited to: structure the UI by using sema
 
 
 O Doctype deve ser a primeira linha de código do documento antes da tag HTML. Esta tag não pertence ao código HTML e também não necessita de tag de fechamento.
-<!DOCTYPE html!>
+<!DOCTYPE html>
 
 
 O código HTML é uma série de elementos em árvore onde alguns elementos são filhos de outros e assim por diante. O elemento principal dessa grande árvore é sempre a tag HTML.
-<html lang=”pt-br”></html>
+<html lang="pt-br"></html>
 
 
 A Tag HEAD é onde fica toda a parte inteligente da página. No HEAD ficam os metadados. Metadados são informações sobre a página e o conteúdo ali publicado.
@@ -17,12 +17,12 @@ A Tag HEAD é onde fica toda a parte inteligente da página. No HEAD ficam os meta
 
 
 Metatag responsável por chavear qual tabela de caractéres a página está utilizando, não necessita de tag de fechamento. Unicode fornece um único número para cada caractere, não importa a plataforma, nem o programa, nem a língua.
-<meta charset=”utf-8”> ESTRUTURA ATUAL DA TAG.
-<meta http-equiv=”Content-Type” content=”text/html; charset=utf-8”> ESTRUTURA ANTIGA SUPORTADA PELO HTML5.
+<meta charset="utf-8"> ESTRUTURA ATUAL DA TAG.
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> ESTRUTURA ANTIGA SUPORTADA PELO HTML5.
 
 
 Links para fontes externas que serão usadas no documento.
-<link rel=”stylesheet” type=”text/css” href=”estilo.css”>
+<link rel="stylesheet" type="text/css" href="estilo.css">
 
 
 Modelos de conteúdo:
@@ -100,7 +100,7 @@ This objective may include but is not limited to: implement storage APIs, AppCac
 
 
 5. Establish the scope of objects and variables.
-This objective may include but is not limited to: define the lifetime of variables; keep objects out of the global namespace; use the “this” keyword to reference an object that fired an event; scope variables locally and globally.
+This objective may include but is not limited to: define the lifetime of variables; keep objects out of the global namespace; use the “this" keyword to reference an object that fired an event; scope variables locally and globally.
 
 
 6. Create and implement objects and methods.

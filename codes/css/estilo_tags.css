@@ -1,0 +1,39 @@
+header{
+	border: 2px solid #4682B4;
+	background-color: #B0C4DE;
+}
+
+hgroup{
+	border: 2px solid #006400;
+	background-color: #8FBC8F;
+}
+
+nav{
+	border: 2px solid #8B4513;
+	background-color: #CD853F;
+}
+
+article{
+	border: 2px solid #FF1493;
+	background-color: #FFB6C1;
+}
+
+aside{
+	border: 2px solid #696969;
+	background-color: #D3D3D3;
+}
+
+section{
+	border: 2px solid #9932CC;
+	background-color: #DA70D6;
+}
+
+time{
+	border: 2px solid #CD9B1D;
+	background-color: #FFC125;
+}
+
+footer{
+	border: 2px solid #CD5555;
+	background-color: #FF6A6A;
+}
