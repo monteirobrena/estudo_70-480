@@ -51,6 +51,7 @@ http://dev.w3.org/html5/spec/single-page.html
 http://html5demos.com/
 http://www.w3schools.com/html/html5_intro.asp
 http://www.html-5-tutorial.com/
+http://www.html5andcss3.org/
 http://msdn.microsoft.com/en-us/library/ie/hh673546(v=vs.85).aspx
 http://www.codecademy.com/pt/tracks/htmlcss
 
